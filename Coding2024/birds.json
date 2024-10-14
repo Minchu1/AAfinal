@@ -1,0 +1,49 @@
+{
+    "birds": {
+      "nzBirds": {
+        "endangered": {
+          "Kakapo": {
+            "habitat": "Forests and Rimu forests",
+            "diet": "Herbivore"
+          },
+          "Takahe": {
+            "habitat": "Alpine grasslands",
+            "diet": "Herbivore"
+          }
+        },
+        "nonEndangered": {
+          "Kiwi": {
+            "habitat": "Forests, scrublands, and farmlands",
+            "diet": "Omnivore"
+          },
+          "Bellbird": {
+            "habitat": "Forests, shrublands, and gardens",
+            "diet": "Nectarivore"
+          }
+        }
+      },
+      "nonNzBirds": {
+        "endangered": {
+          "BaldEagle": {
+            "habitat": "Near large bodies of open water",
+            "diet": "Carnivore"
+          },
+          "CaliforniaCondor": {
+            "habitat": "Mountainous regions, forests",
+            "diet": "Scavenger"
+          }
+        },
+        "nonEndangered": {
+          "Sparrow": {
+            "habitat": "Urban and rural areas",
+            "diet": "Omnivore"
+          },
+          "Parrot": {
+            "habitat": "Tropical and subtropical regions",
+            "diet": "Herbivore"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,132 @@
+/* Import the Nerko One font */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    background-color: #fff7d4;
+    font-family: 'Nerko One', cursive;
+    color: #658A6E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #658A6E;
+    margin-bottom: 10px;
+}
+
+/* Container for text content and pigeon image */
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%; /* Adjust the width of the main content */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px; /* Add padding to shift everything slightly right */
+}
+
+/* Content section on the left */
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Pigeon image on the right */
+.pigeon-image {
+    max-width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Centering all user input elements */
+#quiz, #endangered, #feedbackSection, #birdInfo {
+    width: 100%; /* Stretch to the full width of the text content area */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#quiz p, #endangered p {
+    color: #A88C6C;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.button-52 {
+    font-family: 'Nerko One', cursive;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    outline: 0;
+    border: 1px solid #C9A77B;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: #658A6E;
+    margin: 10px;
+}
+
+.button-52:after {
+    content: "";
+    background-color: #C3D18C;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+/* Feedback Section Styling */
+#feedbackSection {
+    text-align: center;
+    width: 100%;
+}
+
+#feedbackText {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Nerko One', cursive;
+}
+
+#birdList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #91BA8D;
+    margin-top: 20px;
+}
+
+#birdList li {
+    padding: 5px 0;
+}
+
+#loading {
+    font-family: 'Nerko One', cursive;
+    font-size: 1.5em;
+    color: #A88C6C;
+    text-align: center;
+    margin-top: 20px;
+}

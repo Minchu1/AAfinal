@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Information</title>
+    <link rel="stylesheet" type="text/css" href="birdsAround.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content-container">
+        <div class="text-content">
+            <h1>Bird Information</h1>
+    
+            <!-- Quiz Section -->
+            <div id="quiz">
+                <p>Is the bird from New Zealand or Non-New Zealand?</p>
+                <button onclick="selectRegion('nz')" class="button-52" role="button">New Zealand</button>
+                <button onclick="selectRegion('nonNz')" class="button-52" role="button">Non-New Zealand</button>
+            </div>
+    
+            <!-- Endangered Status Section -->
+            <div id="endangered" style="display: none;">
+                <h2>Endangered Status</h2>
+                <p>Is the bird endangered or non-endangered?</p>
+                <button onclick="selectStatus('endangered')" class="button-52" role="button">Endangered</button>
+                <button onclick="selectStatus('nonEndangered')" class="button-52" role="button">Non-Endangered</button>
+            </div>
+            
+            <!-- Feedback Section -->
+            <div id="feedbackSection">
+                <h2>Feedback</h2>
+                <textarea id="feedbackText" placeholder="Enter your feedback here..."></textarea>
+                <button class="button-52" id="submitFeedback" onclick="submitFeedback()">Submit Feedback</button>
+                <div id="feedbackResponse" style="display: none;"></div>
+            </div>
+    
+            <div id="birdInfo" style="display: none;">
+                <h2>Bird Information</h2>
+                <ul id="birdList"></ul>
+            </div>
+    
+            <div id="loading" style="display: none;">
+                <p>Loading...</p>
+            </div>
+        </div>
+    
+        <img src="pig4.gif" alt="Pigeon Image" class="pigeon-image">
+    </div>
+    
+    
+    <script type="module" src="birdsAround.js"></script>
+</body>
+</html>
